@@ -122,6 +122,10 @@ span > img {
 
 }
 
+.skills-scroll::-webkit-scrollbar {
+    width: 0;
+}
+
 .skill {
     /*border: solid black 1px;*/
     display: flex;
@@ -218,6 +222,18 @@ span > img {
         /*align-content: space-evenly;*/
 }
 
+::-webkit-scrollbar {
+    width: 0.5vw;
+    height: 1vh;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 2vh;
+    border: transparent;
+}
 
 .dot {
     height: 10px;
